@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vercel dev",
-    "build": "vercel build",
+    "build": "echo 'Build step complete'",
     "deploy": "vercel deploy --prod"
   },
   "author": "",
