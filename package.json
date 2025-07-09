@@ -1,0 +1,20 @@
+{
+  "name": "tuition-landing-page",
+  "version": "1.0.0",
+  "description": "A responsive tuition landing page with admin edit capabilities and booking functionality",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel deploy --prod"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "@vercel/postgres": "^0.5.1"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.0"
+  }
+}
